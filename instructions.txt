@@ -1,0 +1,4 @@
+1. Open project in VS Code
+2. Click on Terminal->New Terminal or open (or install and open) git bash
+3. Type in the terminal 'npm i' or 'npm install'
+4. Type 'node index.js'
