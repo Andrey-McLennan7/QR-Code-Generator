@@ -2,3 +2,7 @@
 2. Click on Terminal->New Terminal or open (or install and open) git bash
 3. Type in the terminal 'npm i' or 'npm install'
 4. Type 'node index.js'
+
+Alternatively, you can simply double-click on run.bat and make the application usable.
+The program will prompt you to enter a URL for a website and generate a QR code image
+in your downloads folder.
