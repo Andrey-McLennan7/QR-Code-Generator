@@ -2,7 +2,7 @@
 
 ## Overview
 This project is a JavaScript application that generates QR codes based on user input (e.g., text, URL).  
-It demonstrates the use of JavaScript and Node.js, handling user input, dynamically generating QR codes, and rendering the result for download or display.
+It demonstrates the use of JavaScript and Node.js, handling user input, dynamically generating QR codes, and rendering the result in the PNG format in the Downloads folder
 
 ## Features
 - Accepts user input (text, URL, or any string)  
