@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>QR Code Generator</title>
+    </head>
+    <body class="bg-dark text-light">
+        <section class="d-flex justify-content-center align-items-center min-vh-100">
+            <div class="container" style="max-width: 1000px;">
+                <div class="mb-3 text-center">
+                    <label for="basic-url" class="form-label fs-4">Enter URL</label>
+
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon3">Example: https://google.com</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="btn btn-primary btn-lg px-4" id="submit-btn">Generate QR Code</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./index.js" charset="UTF-8"></script>
+    </body>
+</html>
