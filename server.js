@@ -89,4 +89,6 @@ app.post("/generate", (req, res) => {
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
+    console.log(`Open browser and type domain: http://localhost:${port}`);
+    console.log("Press CTRL+C to stop running");
 });
